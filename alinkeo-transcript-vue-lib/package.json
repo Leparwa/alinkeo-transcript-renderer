@@ -1,7 +1,7 @@
 {
   "name": "alinkeo-transcript-vue-lib",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "main": "./dist/alinkeo-transcript-vue-lib.common.js",
   "scripts": {
     "serve": "vue-cli-service serve",
