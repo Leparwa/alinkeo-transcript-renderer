@@ -6,6 +6,7 @@
     </div>
 </template>
   <script>
+  import { intializeProssMirror } from 'alinkeo-transcript-renderer'
   export default {
     data () {
       return {
@@ -23,7 +24,8 @@
 
       // Example of methods that could be implemented inside this life-hook cycle. 
       getTranscripts (){
-        return 'Transcript words'
+        const transcriptContent = intializeProssMirror('you are now here')
+        return transcriptContent
       }
     
     }
